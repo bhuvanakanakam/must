@@ -1,0 +1,138 @@
+.backgroundIcon {
+  height: 330px;
+  width: 1178px;
+  position: absolute;
+  margin: 0 !important;
+  right: -107px;
+  bottom: -72px;
+}
+.whoIsBehind {
+  margin: 0;
+  align-self: stretch;
+  height: 56.8px;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 1;
+}
+.se21ucse035Bhuvana,
+.se21ucse095Karthik,
+.se21ucse156Pramod,
+.se21ucse175Sai {
+  margin: 0;
+}
+.se21ucse035BhuvanaContainer {
+  width: 526.8px;
+  height: 81.4px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  text-transform: capitalize;
+  font-family: var(--font-pavanam);
+  color: var(--color-white);
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 100%;
+  z-index: 1;
+}
+.whoIsBehindTheMustParent {
+  width: 840.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-4);
+  max-width: 100%;
+}
+.bichevronRightIcon {
+  height: 56.8px;
+  width: 102.6px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 1;
+}
+.bichevronRightWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.se21ucse192Sanyam,
+.se21ucse200Sheikh,
+.se21ucse202ShreeyaSaaye,
+.se21ucse250Vismay {
+  margin: 0;
+}
+.se21ucse192SanyamContainer {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm-2);
+}
+.whoMust,
+.whoMustInner {
+  display: flex;
+  box-sizing: border-box;
+}
+.whoMustInner {
+  width: 301px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+  margin-left: -265.5px;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-pavanam);
+}
+.whoMust {
+  align-self: stretch;
+  border-radius: var(--br-26xl);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-33xl);
+  position: relative;
+  min-height: 250px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-snow);
+  font-family: var(--font-pt-sans-caption);
+}
+@media screen and (max-width: 1000px) {
+  .whoMust {
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 975px) {
+  .whoIsBehind {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .whoIsBehind {
+    font-size: var(--font-size-lgi);
+  }
+}
