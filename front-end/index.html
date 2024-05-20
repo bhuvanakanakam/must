@@ -37,30 +37,32 @@
   </head>
   <body>
     <div class="homepage">
-      <header class="logo-parent">
-        <div class="logo">
-          <b class="muspeedtest">MUSpeedTest</b>
-        </div>
-        <div class="g-o-wrapper">
-          <div class="g-o">
-            <div class="nav">
-              <div class="nav1">
+      <header class="main-layout-wrapper">
+        <div class="main-layout">
+          <div class="logo">
+            <b class="muspeedtest">MUSpeedTest</b>
+          </div>
+          <div class="nav-container-wrapper">
+            <div class="nav-container">
+              <div class="nav1" id="nav1Container">
                 <div class="home">home</div>
                 <div class="nav1-child"></div>
               </div>
-            </div>
-            <div class="nav11">
-              <div class="home1">Data</div>
-              <div class="home-navigation"></div>
-            </div>
-            <div class="nav12">
-              <div class="home2">About Us</div>
-              <div class="nav1-item"></div>
+              <div class="nav1-parent">
+                <div class="nav11">
+                  <div class="home1">About Us</div>
+                  <div class="nav1-item"></div>
+                </div>
+                <div class="nav12">
+                  <div class="home2">Data</div>
+                  <div class="nav1-inner"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </header>
-      <div class="speed-test-go-wrapper">
+      <section class="speed-test-go-wrapper">
         <div class="speed-test-go" id="speedTestGo">
           <h1 class="go">GO</h1>
           <div class="wrapper-background">
@@ -72,20 +74,21 @@
             />
           </div>
         </div>
-      </div>
-      <section class="mu-s-t">
+      </section>
+      <section class="homepage-inner">
         <div class="background-parent">
           <img
             class="background-icon1"
             alt=""
             src="./public/background-1.svg"
+            data-scroll-to="background"
           />
 
           <div class="what-must-frame">
-            <div class="mu-s-t-title-wrapper">
-              <div class="mu-s-t-title">
-                <div class="chvron">
-                  <div class="mahindra-university-speed-test">
+            <div class="what-must-frame-inner">
+              <div class="frame-parent">
+                <div class="frame-group">
+                  <div class="must-parent">
                     <h1 class="must">MuST</h1>
                     <img
                       class="chvron-icon"
@@ -108,9 +111,9 @@
                 </div>
               </div>
             </div>
-            <div class="frame-parent">
-              <div class="unravel-peak-hours-parent">
-                <div class="unravel-peak-hours">
+            <div class="speed-test-container-parent">
+              <div class="speed-test-container">
+                <div class="speed-symbol-wrapper">
                   <img
                     class="speed-symbol-icon"
                     loading="lazy"
@@ -120,17 +123,17 @@
                 </div>
                 <div class="speed-test">Speed Test</div>
               </div>
-              <div class="who-m-u-s-t">
+              <div class="click-the-go-button-to-get-in-wrapper">
                 <div class="click-the-go">
                   click the go button, to get instant speed of your college MU
                   wifi, Ping, Jitter, Packet Loss, Upload speed, Download Speed.
                 </div>
               </div>
             </div>
-            <div class="navigate-your-way-across-campu-wrapper">
-              <div class="navigate-your-way-across-campu">
-                <div class="rocket-icon-parent">
-                  <div class="rocket-icon">
+            <div class="world-container-wrapper">
+              <div class="world-container">
+                <div class="frame-container">
+                  <div class="world-symbol-wrapper">
                     <img
                       class="world-symbol-icon"
                       loading="lazy"
@@ -138,7 +141,7 @@
                       src="./public/world-symbol.svg"
                     />
                   </div>
-                  <div class="let-our-m-l-model-guide-you-to">
+                  <div class="navigate-your-way-across-the-c-parent">
                     <div class="navigate-your-way">
                       Navigate your way across the campus
                     </div>
@@ -149,18 +152,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="interactive-button-label-wrapper">
-                  <div class="interactive-button-label">
+                <div class="rocket-container-wrapper">
+                  <div class="rocket-container">
                     <div class="rocket-wrapper">
                       <img
-                        class="rocket-icon1"
+                        class="rocket-icon"
                         loading="lazy"
                         alt=""
                         src="./public/rocket.svg"
                       />
                     </div>
                     <div class="unravel-peak-hours-for-seamles-parent">
-                      <div class="unravel-peak-hours1">
+                      <div class="unravel-peak-hours">
                         Unravel Peak Hours for Seamless Downloads
                       </div>
                       <div class="let-our-ml">
@@ -177,86 +180,81 @@
           </div>
         </div>
       </section>
-      <section class="who-is-behind-m-u-s-t-wrapper">
-        <div class="who-is-behind-m-u-s-t">
-          <div class="why-must">
-            <img
-              class="background-icon2"
-              alt=""
-              src="./public/background-2.svg"
-            />
+      <section class="why-must-parent">
+        <div class="why-must">
+          <img
+            class="background-icon2"
+            alt=""
+            src="./public/background-2.svg"
+          />
 
-            <div class="mu-s-t-history-parent">
-              <div class="mu-s-t-history">
-                <h1 class="must-history">MuST History</h1>
-              </div>
-              <img
-                class="bichevron-right-icon"
-                loading="lazy"
-                alt=""
-                src="./public/bichevronright.svg"
-              />
+          <div class="team-info-parent">
+            <div class="team-info">
+              <h1 class="must-history">MuST History</h1>
             </div>
-            <div class="at-mahindra-university">
-              at mahindra university, as third year undergraduates majoring in
-              computer science and engineering, we’ve encountered persistent
-              challenges with campus connectivity. from struggling with poor
-              internet in various areas to facing the stress of looming
-              deadlines when uploading and downloading large files and videos,
-              these issues have been a constant source of frustration.
-              determined to leave a positive impact before we graduate, we’ve
-              united to address these connectivity issues head-on. our goal is
-              to empower future students by providing them with insights into
-              campus connectivity, highlighting areas with strong and weak
-              signal strengths. whether it’s grabbing a meal in the mess,
-              studying in the library, or catching a show, we understand the
-              importance of seamless internet access for everyone on campus,
-              including professors and phD students. our mission is to enhance
-              the overall connectivity experience for the entire mahindra
-              university community
+            <img
+              class="bichevron-right-icon"
+              loading="lazy"
+              alt=""
+              src="./public/bichevronright.svg"
+            />
+          </div>
+          <div class="at-mahindra-university">
+            at mahindra university, as third year undergraduates majoring in
+            computer science and engineering, we’ve encountered persistent
+            challenges with campus connectivity. from struggling with poor
+            internet in various areas to facing the stress of looming deadlines
+            when uploading and downloading large files and videos, these issues
+            have been a constant source of frustration. determined to leave a
+            positive impact before we graduate, we’ve united to address these
+            connectivity issues head-on. our goal is to empower future students
+            by providing them with insights into campus connectivity,
+            highlighting areas with strong and weak signal strengths. whether
+            it’s grabbing a meal in the mess, studying in the library, or
+            catching a show, we understand the importance of seamless internet
+            access for everyone on campus, including professors and phD
+            students. our mission is to enhance the overall connectivity
+            experience for the entire mahindra university community
+          </div>
+        </div>
+        <div class="who-must">
+          <img
+            class="background-icon3"
+            alt=""
+            src="./public/background-3.svg"
+          />
+
+          <div class="who-is-behind-the-must-parent">
+            <div class="who-is-behind">Who is behind the muST</div>
+            <div class="se21ucse035-bhuvana-container">
+              <p class="se21ucse035-bhuvana">
+                sE21UCSE035 - Bhuvana Teja Kanakam
+              </p>
+              <p class="se21ucse095-karthik">SE21UCSE095 - Karthik Sattiraju</p>
+              <p class="se21ucse156-pramod">
+                SE21UCSE156 - Pramod Reddy Atmakuri
+              </p>
+              <p class="se21ucse175-sai">SE21UCSE175 - Sai Vivek Nekkanti</p>
             </div>
           </div>
-          <div class="who-must">
-            <img
-              class="background-icon3"
-              alt=""
-              src="./public/background-3.svg"
-            />
-
-            <div class="who-is-behind-the-must-parent">
-              <div class="who-is-behind">Who is behind the muST</div>
-              <div class="se21ucse035-bhuvana-container">
-                <p class="se21ucse035-bhuvana">
-                  sE21UCSE035 - Bhuvana Teja Kanakam
-                </p>
-                <p class="se21ucse095-karthik">
-                  SE21UCSE095 - Karthik Sattiraju
-                </p>
-                <p class="se21ucse156-pramod">
-                  SE21UCSE156 - Pramod Reddy Atmakuri
-                </p>
-                <p class="se21ucse175-sai">SE21UCSE175 - Sai Vivek Nekkanti</p>
+          <div class="who-must-inner">
+            <div class="frame-div">
+              <div class="bichevron-right-wrapper">
+                <img
+                  class="bichevron-right-icon1"
+                  alt=""
+                  src="./public/bichevronright-1.svg"
+                />
               </div>
-            </div>
-            <div class="who-must-inner">
-              <div class="why-is-mu-s-t-behind-this-parent">
-                <div class="why-is-mu-s-t-behind-this">
-                  <img
-                    class="bichevron-right-icon1"
-                    alt=""
-                    src="./public/bichevronright-1.svg"
-                  />
-                </div>
-                <div class="se21ucse192-sanyam-container">
-                  <p class="se21ucse192-sanyam">SE21UCSE192 - Sanyam Agrawal</p>
-                  <p class="se21ucse200-sheikh">
-                    SE21UCSE200 - Sheikh Obaid Ullah
-                  </p>
-                  <p class="se21ucse202-shreeya-saaye">
-                    SE21UCSE202- Shreeya Saaye Nallaboina
-                  </p>
-                  <p class="se21ucse250-vismay">SE21UCSE250 - Vismay CV</p>
-                </div>
+              <div class="se21ucse192-sanyam-container">
+                <p class="se21ucse192-sanyam">SE21UCSE192 - Sanyam Agrawal</p>
+                <p class="se21ucse200-sheikh">
+                  SE21UCSE200 - Sheikh Obaid Ullah
+                </p>
+                <p class="se21ucse202-shreeya-saaye">
+                  SE21UCSE202- Shreeya Saaye Nallaboina
+                </p>
+                <p class="se21ucse250-vismay">SE21UCSE250 - Vismay CV</p>
               </div>
             </div>
           </div>
@@ -265,6 +263,16 @@
     </div>
 
     <script>
+      var nav1Container = document.getElementById("nav1Container");
+      if (nav1Container) {
+        nav1Container.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='background']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
       var speedTestGo = document.getElementById("speedTestGo");
       if (speedTestGo) {
         speedTestGo.addEventListener("click", function (e) {
