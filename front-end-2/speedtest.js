@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Simulate speed test
       setTimeout(() => {
-          const simulatedDownloadSpeed = Math.random() * 100;
-          const simulatedUploadSpeed = Math.random() * 100;
+          const simulatedDownloadSpeed = Math.random() * 50;
+          const simulatedUploadSpeed = Math.random() * 50;
 
           downloadSpeed.innerText = simulatedDownloadSpeed.toFixed(2) + ' Mbps';
           uploadSpeed.innerText = simulatedUploadSpeed.toFixed(2) + ' Mbps';
@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
           // Simulate ping and jitter
           const pingSamples = [];
           const numSamples = 10;
-          const minPing = 20; // Minimum ping in milliseconds
-          const maxPing = 100; // Maximum ping in milliseconds
+          const minPing = 5; // Minimum ping in milliseconds
+          const maxPing = 20; // Maximum ping in milliseconds
 
           for (let i = 0; i < numSamples; i++) {
               const simulatedPing = Math.random() * (maxPing - minPing) + minPing;
