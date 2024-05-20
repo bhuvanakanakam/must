@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
+    <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
@@ -29,6 +30,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Pavanam:wght@400&display=swap"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sudo Var:wght@400&display=swap"
+    />
   </head>
   <body>
     <div class="homepage">
@@ -44,9 +49,8 @@
                 <div class="nav1-child"></div>
               </div>
             </div>
-
             <div class="nav11">
-              <div class="home1">MuST</div>
+              <div class="home1">Data</div>
               <div class="home-navigation"></div>
             </div>
             <div class="nav12">
@@ -56,8 +60,6 @@
           </div>
         </div>
       </header>
-
-      <div class="above"></div>
       <div class="speed-test-go-wrapper">
         <div class="speed-test-go" id="speedTestGo">
           <h1 class="go">GO</h1>
@@ -266,41 +268,9 @@
       var speedTestGo = document.getElementById("speedTestGo");
       if (speedTestGo) {
         speedTestGo.addEventListener("click", function (e) {
-          // Please sync "click_homepage" to the project
+          window.location.href = "./click-homepage.html";
         });
       }
-      function scrollToAboutUs() {
-        var aboutUsSection = document.querySelector(
-          ".who-is-behind-m-u-s-t-wrapper"
-        );
-        aboutUsSection.scrollIntoView({ behavior: "smooth" });
-      }
-
-      var aboutUsButton = document.querySelector(".home2");
-      if (aboutUsButton) {
-        aboutUsButton.addEventListener("click", scrollToAboutUs);
-      }
-
-      function scrollToHome() {
-        var homeSection = document.querySelector(".above");
-        homeSection.scrollIntoView({ behavior: "smooth" });
-      }
-
-      var homeButton = document.querySelector(".home");
-      if (homeButton) {
-        homeButton.addEventListener("click", scrollToHome);
-      }
-
-      function scrollToMust() {
-        var mustSection = document.querySelector(".mu-s-t");
-        mustSection.scrollIntoView({ behavior: "smooth" });
-      }
-
-      // Adding click event listener to the MuST button
-      var mustButton = document.querySelector(".home1");
-      if (mustButton) {
-        mustButton.addEventListener("click", scrollToMust);
-      }
-    </script>
+      </script>
   </body>
 </html>

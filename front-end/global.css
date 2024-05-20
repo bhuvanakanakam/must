@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-pavanam: Pavanam;
+    --font-pt-sans-caption: "PT Sans Caption";
+    --font-quicksand: Quicksand;
+    --font-red-hat-mono: "Red Hat Mono";
+    --nav-1: Poppins;
+    --font-bellota-text: "Bellota Text";
+    --font-sudo-var: "Sudo Var";
+  
+    /* font sizes */
+    --font-size-mini: 15px;
+    --font-size-13xl: 32px;
+    --font-size-lgi: 19px;
+    --font-size-7xl: 26px;
+    --nav-1-size: 16px;
+    --font-size-xl: 20px;
+    --font-size-21xl: 40px;
+    --font-size-5xl: 24px;
+    --font-size-lg: 18px;
+  
+    /* Colors */
+    --color-gray: #150a0a;
+    --color-white: #fff;
+    --color-snow: #fbf5f5;
+    --color-black: #000;
+    --color-mistyrose-100: #f0dddd;
+    --color-lavenderblush: #faeaea;
+  
+    /* Gaps */
+    --gap-19xl: 38px;
+    --gap-57xl: 76px;
+    --gap-xl: 20px;
+    --gap-sm: 14px;
+    --gap-base: 16px;
+  
+    /* Paddings */
+    --padding-54xl: 73px;
+    --padding-xl: 20px;
+    --padding-33xl: 52px;
+    --padding-7xl: 26px;
+    --padding-6xl: 25px;
+    --padding-21xl: 40px;
+    --padding-8xs: 5px;
+    --padding-4xs: 9px;
+    --padding-base: 16px;
+    --padding-11xs: 2px;
+    --padding-12xs: 1px;
+    --padding-51xl: 70px;
+  
+    /* Border radiuses */
+    --br-26xl: 45px;
+    --br-21xl: 40px;
+  }
+  
