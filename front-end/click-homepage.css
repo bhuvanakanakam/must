@@ -9,6 +9,7 @@
   font-weight: 700;
   font-family: inherit;
   white-space: nowrap;
+  cursor: pointer;
 }
 .home3,
 .logo1 {
@@ -105,6 +106,7 @@
   display: inline-block;
   white-space: nowrap;
   height: 100%;
+  cursor: pointer;
 }
 .nav1-child3 {
   width: 3px;
@@ -176,7 +178,7 @@
   text-transform: capitalize;
   display: inline-block;
   flex-shrink: 0;
-  debug_commit: 1de1738;
+  
   z-index: 2;
 }
 .speed-label {
@@ -197,7 +199,7 @@
   text-transform: capitalize;
   display: inline-block;
   flex-shrink: 0;
-  debug_commit: 1de1738;
+  
   z-index: 1;
 }
 .jitter-value {
@@ -215,7 +217,7 @@
   text-transform: capitalize;
   display: inline-block;
   flex-shrink: 0;
-  debug_commit: 1de1738;
+  
   z-index: 2;
 }
 .download-mbps-wrapper {
@@ -236,7 +238,7 @@
   text-transform: capitalize;
   display: inline-block;
   flex-shrink: 0;
-  debug_commit: 1de1738;
+  
   z-index: 1;
 }
 .labels1,
@@ -499,14 +501,13 @@
   box-sizing: border-box;
 }
 .bandwidth-analysis-icon {
-  height: 100%;
-  width: 642px;
+  height: 300px;
+  width: 450px;
   position: absolute;
   margin: 0 !important;
-  top: 0;
-  bottom: 0;
-  left: -192px;
-  max-height: 100%;
+  top: 100px;
+  left: 55px;
+ 
 }
 .campus-day-bandwidth {
   margin: 0;

@@ -43,12 +43,12 @@
         </div>
         <div class="header">
           <div class="navigation">
-            <div class="nav13" id="nav1Container">
+            <div class="nav13" id="nav1Container1">
               <div class="home3" id="homeText3">home</div>
               <div class="line-div"></div>
             </div>
           </div>
-          <div class="nav14" id="nav1Container">
+          <div class="nav14" id="nav1Container2">
             <div class="home4">results</div>
             <div class="nav1-child1"></div>
           </div>
@@ -123,7 +123,7 @@
                   class="vector-icon"
                   loading="lazy"
                   alt=""
-                  src="./public/vector.svg"
+                  src="./public/sh.png"
                 />
               </div>
             </div>
@@ -139,7 +139,7 @@
                   class="bandwidth-analysis-icon"
                   loading="lazy"
                   alt=""
-                  src="./public/bandwidth-analysis.svg"
+                  src="./public/bdw.jpeg"
                 />
 
                 <h2 class="campus-day-bandwidth">
@@ -165,39 +165,53 @@
     </div>
 
     <script>
-      var homeText3 = document.getElementById("homeText3");
-      if (homeText3) {
-        homeText3.addEventListener("click", function (e) {
-          window.location.href = "./homepage.html";
-        });
-      }
-      
-      var nav1Container = document.getElementById("nav1Container");
-      if (nav1Container) {
-        nav1Container.addEventListener("click", function () {
+      var nav1Container1 = document.getElementById("nav1Container1");
+      if (nav1Container1) {
+        nav1Container1.addEventListener("click", function () {
           var anchor = document.querySelector("[data-scroll-to='background']");
           if (anchor) {
             anchor.scrollIntoView({ block: "start", behavior: "smooth" });
           }
         });
       }
-      
-      var nav1Container = document.getElementById("nav1Container");
-      if (nav1Container) {
-        nav1Container.addEventListener("click", function () {
+
+      var nav1Container2 = document.getElementById("nav1Container2");
+      if (nav1Container2) {
+        nav1Container2.addEventListener("click", function () {
           var anchor = document.querySelector("[data-scroll-to='border']");
           if (anchor) {
             anchor.scrollIntoView({ block: "start", behavior: "smooth" });
           }
         });
       }
-      
-      var shareContainer = document.getElementById("shareContainer");
-      if (shareContainer) {
-        shareContainer.addEventListener("click", function (e) {
-          // Please sync "share popup" to the project
+
+      var muspeedtestIcon = document.querySelector(".muspeedtest1");
+      if (muspeedtestIcon) {
+        muspeedtestIcon.addEventListener("click", function () {
+          window.location.href = "index.html";
         });
       }
-      </script>
+
+      var shareDiv = document.querySelector(".share2");
+      if (shareDiv) {
+        shareDiv.addEventListener("click", function () {
+          // Open a new window with the share options
+          var popupWidth = 410; // Increased width
+          var popupHeight = 310; // Increased height
+          var left = (window.innerWidth - popupWidth) / 2;
+          var top = (window.innerHeight - popupHeight) / 2;
+          var popupOptions =
+            "width=" +
+            popupWidth +
+            ",height=" +
+            popupHeight +
+            ",top=" +
+            top +
+            ",left=" +
+            left;
+          window.open("popup.html", "Share Popup", popupOptions);
+        });
+      }
+    </script>
   </body>
 </html>

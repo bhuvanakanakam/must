@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(180deg, #7D3B47 0%, #926271 100%);
+  }
+  .popup-content {
+    width: 542px;
+    height: 289px;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #7D3B47 0%, #926271 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  .copy{
+    position: absolute;
+    align-items: center;
+   
+    left: 60px;
+  }
+  .Email{
+    position: absolute;
+    align-items: center;
+    top: 170px;
+    left: 60px;
+  }
+  h1{
+    position: absolute;
+    top: 50px;
+  }
+  .emimg{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom: 87px;
+    left: 10px;
+  }
+  .clpimg{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom: 135px;
+    left: 10px;
+  }

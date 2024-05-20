@@ -7,6 +7,7 @@
   line-height: 122.34%;
   display: inline-block;
   white-space: nowrap;
+  cursor: pointer;
 }
 .home,
 .logo {
@@ -54,6 +55,7 @@
   min-width: 72px;
   white-space: nowrap;
   height: 100%;
+  cursor: pointer;
 }
 .nav1-item {
   width: 3px;
@@ -593,7 +595,7 @@
   text-transform: capitalize;
   display: inline-block;
   flex-shrink: 0;
-  debug_commit: 1de1738;
+
   z-index: 1;
 }
 .se21ucse035-bhuvana,
@@ -612,7 +614,6 @@
   color: var(--color-white);
   display: inline-block;
   flex-shrink: 0;
-  debug_commit: 1de1738;
   max-width: 100%;
   z-index: 1;
 }
@@ -631,7 +632,6 @@
   position: relative;
   border-radius: var(--br-21xl);
   flex-shrink: 0;
-  debug_commit: 1de1738;
   z-index: 1;
 }
 .bichevron-right-wrapper {
@@ -652,7 +652,6 @@
   position: relative;
   text-transform: capitalize;
   flex-shrink: 0;
-  debug_commit: 1de1738;
   z-index: 1;
 }
 .frame-div,
