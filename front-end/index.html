@@ -49,7 +49,7 @@
                 <div class="nav1-child"></div>
               </div>
               <div class="nav1-parent">
-                <div class="nav11">
+                <div class="nav11" id="nav11">
                   <div class="home1">About Us</div>
                   <div class="nav1-item"></div>
                 </div>
@@ -273,13 +273,13 @@
         });
       }
 
-      var nav1Container = document.getElementById("nav11");
-      if (nav1Container) {
-        nav1Container.addEventListener("click", function () {
-          var anchor = document.querySelector("[data-scroll-to='background']");
-          if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-          }
+      var aboutUsNav = document.getElementById("nav11");
+      if (aboutUsNav) {
+        aboutUsNav.addEventListener("click", function () {
+          window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: "smooth",
+          });
         });
       }
 

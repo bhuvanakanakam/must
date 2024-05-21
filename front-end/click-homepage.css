@@ -178,7 +178,7 @@
   text-transform: capitalize;
   display: inline-block;
   flex-shrink: 0;
-  
+
   z-index: 2;
 }
 .speed-label {
@@ -199,7 +199,7 @@
   text-transform: capitalize;
   display: inline-block;
   flex-shrink: 0;
-  
+
   z-index: 1;
 }
 .jitter-value {
@@ -217,7 +217,7 @@
   text-transform: capitalize;
   display: inline-block;
   flex-shrink: 0;
-  
+
   z-index: 2;
 }
 .download-mbps-wrapper {
@@ -238,7 +238,7 @@
   text-transform: capitalize;
   display: inline-block;
   flex-shrink: 0;
-  
+
   z-index: 1;
 }
 .labels1,
@@ -507,7 +507,6 @@
   margin: 0 !important;
   top: 100px;
   left: 55px;
- 
 }
 .campus-day-bandwidth {
   margin: 0;
@@ -691,4 +690,17 @@
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+}
+.mhu {
+  text-align: center;
+  position: relative;
+  left: 200px;
+}
+.map {
+  width: 700px;
+  height: 500px;
+  align-items: center;
+  position: relative;
+  left: 70px;
+  bottom: 150px;
 }
