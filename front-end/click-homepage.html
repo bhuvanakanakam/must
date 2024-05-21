@@ -43,7 +43,7 @@
         <div class="header">
           <div class="navigation">
             <div class="nav13" id="nav1Container1">
-              <div class="home3" id="homeText3">home</div>
+              <div class="home3" id="homeText3">MAP</div>
               <div class="line-div"></div>
             </div>
           </div>
@@ -162,7 +162,7 @@
         </div>
       </div>
       <h2 class="mhu">Mahindra University Network Map</h2>
-      <img src="./public/map.jpg" class="map" />
+      <img src="./public/map.jpg" class="map" data-scroll-to="map-image" />
     </div>
 
     <script>
@@ -223,6 +223,18 @@
             ",left=" +
             left;
           window.open("popup.html", "Share Popup", popupOptions);
+        });
+      }
+
+      var mapLink = document.getElementById("homeText3");
+      if (mapLink) {
+        mapLink.addEventListener("click", function () {
+          setTimeout(function () {
+            window.scrollTo({
+              top: document.body.scrollHeight,
+              behavior: "smooth",
+            });
+          }, 100);
         });
       }
     </script>
